@@ -1,0 +1,190 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh; /*viewport height*/
+	font-family: Helvetica;
+	width: 70vw; /*viewport width*/
+	margin: auto;
+}
+
+
+
+
+
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 30px;
+
+}
+
+
+.nav {
+	list-style-type: none;
+	margin-right: 30px;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0 10px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+.nav li a  {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.nav li a:hover{
+	color: #1eaf80;  /*special green color*/
+}
+
+
+
+
+.logo {
+	width: 220px;
+	height: auto;
+	margin-right: auto;
+}
+
+.main{
+	flex: auto;
+	margin-top: 60px;
+
+
+}
+
+
+.categories {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.category-card {
+	flex: 1 0 21%;
+
+	text-align: center;
+	font-size: 18px;
+	margin:5px;
+	height: 200px;
+	box-shadow: 5px 5px 25px #ccc;
+	border-radius: 10px;
+
+}
+
+.category-card:hover {
+	background-color: #d6b317;
+}
+
+.category-name {
+	margin: 10px 15px;
+}
+
+
+.title {
+	color: #666;  /*grey color*/
+}
+
+
+
+
+
+.product-card img {
+	width: 130px;
+	height: 130px;
+}
+
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.product-card {
+	flex: 1 0 21%;
+
+	text-align: center;
+	font-size: 18px;
+	margin:5px;
+	height: 230px;
+	border-radius: 10px;
+	position: relative;
+
+}
+
+.product-card:hover {
+	box-shadow: 5px 5px 25px #ccc;
+}
+
+.product-name {
+	margin: 10px 15px;
+}
+
+
+.discount-percent {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background-color: #1eaf80;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.discount-price {
+	color: #1eaf80;
+	margin-right: 7px;
+}
+
+.original-price {
+	text-decoration: line-through;
+}
+
+
+/*DETAIL PAGE CSS*/
+
+.detail-page {
+	display: flex;
+}
+
+.stock {
+	color:  #1eaf80;
+	font-weight: bold;
+}
+
+
+
+button {
+	background-color: #1eaf80;
+	color: #fff;
+	padding: 14px 46px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+
+
+
+
+.footer {
+	color: #666;
+	padding: 20px;
+
+}
+
+
+
+
+
+
+
